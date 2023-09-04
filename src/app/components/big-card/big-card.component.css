@@ -1,0 +1,38 @@
+.cointainer_bg{
+    border: solid white 2px;
+    width: 400px;
+    height: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.bg_photo{}
+
+.bg_photo > img{
+    width: 100%;
+    min-width:400px;
+}
+
+
+.bg_title{}
+
+.bg_title > h1 > a{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.bg_description{
+    margin-top: 20px;
+}
+
+.bg_description > p > a{
+    margin-top: 10px;
+    color: grey; 
+}
