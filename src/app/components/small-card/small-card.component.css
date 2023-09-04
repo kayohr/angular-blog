@@ -1,0 +1,20 @@
+.container_sc{
+    width: 700px;
+    margin-bottom: 15px;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sc_photo > img{
+    width: 200px;
+    min-height: 200px;
+    margin-right: 20px;
+}
+
+.sc_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
