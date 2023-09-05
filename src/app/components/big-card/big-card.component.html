@@ -3,7 +3,7 @@
 
     </div>
     <div class="bg_photo">
-        <img src="" 
+        <img src="{{ photoCOver }}" 
         alt="" 
         height="200px"
         srcset=""
@@ -11,10 +11,10 @@
     </div>
   
     <div class="bg_title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a [routerLink]="['content',Id]">{{ cardTitle }}</a></h1>
 
     </div>
     <div class="bg_description">
-        <p><a href="#">xablau</a></p>
+        <p><a [routerLink]="['content',Id]">{{ cardDescription }}</a></p>
     </div>
 </div>
